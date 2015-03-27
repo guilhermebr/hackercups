@@ -11,7 +11,8 @@ def deceitful_war(n, naomi, ken):
     ken.sort()
     np = kp = 0
     for game in range(1, n+1):
-        nc = naomi.pop(0)
+        nc = naomi[0]
+        if nc > ken[0]
         for x in range(len(ken) -1, -1, -1):
             nt = ken[x] - 0.00001
             if nt not in ken:
